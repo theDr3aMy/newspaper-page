@@ -1,0 +1,124 @@
+/*----------------BUDOWA STRONY----------------*/
+body{
+    background-color: white;
+}
+
+main{
+    width: 21cm;
+    height: 29.7cm;
+    background-color: black;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.rectangle-1{
+    width: 50%;
+    float: left;
+}
+
+.rectangle-2{
+    width: 50%;
+    background-color: white;
+    float: left;
+}
+
+header{
+    background-color: orangered;
+    color:white;
+    text-align: center;
+    float: top;
+}
+
+footer{
+    background-color: orangered;
+    color:white;
+    text-align: center;
+    float: bottom;
+    padding: 33px 25px 34px 25px;
+}
+
+.part-1{
+    width: 50%;
+    float: left;
+    color: white;
+}
+.part-2{
+    width: 50%;
+    background-color: #222222;
+    color: white;
+    float: left;
+}
+
+
+/*----------------CZCIONKI----------------*/
+
+h1, h3{
+    font-family: Calibri, sans-serif;
+}
+
+header h1{
+    padding-top: 5px;
+    margin: 0;
+    font-size: 32px;
+}
+
+header h3{
+    margin: 0;
+}
+
+footer h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+h2, h4, h5{
+    margin: 0  0 0 5px;
+    display: flex;
+}
+
+h2{
+    margin-top: 2px;
+}
+
+h4{
+    color: orangered;
+}
+
+.part-1 p{
+    padding: 10px 10px 20px 30px;
+}
+
+.part-2 p{
+    padding: 30px 20px 30px 20px;
+}
+
+/*----------------PRZYCISKI----------------*/
+
+button{
+    width: 180px;
+    height: 140px;
+    margin: 20px 5px 20px 10px;
+    border: 2px solid black;
+    border-radius: 0;
+    background-color: white;
+    transition: box-shadow 0.3s;
+    padding: 0px;
+}
+
+button img{
+    display: flex;
+    margin: 0 0 5px;
+    padding: 0;
+}
+
+button:hover{
+    box-shadow: 0px 4px 12px grey;
+}
+
+.first-btn{
+    margin-top: 45px;
+}
+
+.last-btn{
+    margin-bottom: 45px;
+}
